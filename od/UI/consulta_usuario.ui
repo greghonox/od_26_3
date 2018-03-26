@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>382</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Consulta Usuários</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="recursos.qrc">
+    <normaloff>:/img/img/configure_database_16704.ico</normaloff>:/img/img/configure_database_16704.ico</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/img/img/icons8-administrator-male.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>FreeMono</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Usuários</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>658</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  rgba(255, 207, 183, 200);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>361</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="tabKeyNavigation">
+    <bool>false</bool>
+   </property>
+   <property name="showDropIndicator" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="dragDropOverwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>80</y>
+     <width>90</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:   rgb(200,200,200);</string>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/img/icons8-cancelar.svg</normaloff>:/img/img/icons8-cancelar.svg</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>80</y>
+     <width>97</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/img/img/icons8-ok-filled.svg);
+background-color:   rgb(200,200,200);</string>
+   </property>
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/img/img/icons8-ok-filled.svg</normaloff>:/img/img/icons8-ok-filled.svg</iconset>
+   </property>
+  </widget>
+  <zorder>label_6</zorder>
+  <zorder>label</zorder>
+  <zorder>label_3</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources>
+  <include location="recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

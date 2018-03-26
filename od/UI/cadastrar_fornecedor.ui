@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>655</width>
+    <height>473</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>655</width>
+    <height>473</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>655</width>
+    <height>473</height>
+   </size>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::TabFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Cadastrar Fornecedor</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>FreeMono</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Cadastrar Fornecedor</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>631</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>631</width>
+     <height>371</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(200, 200,200);</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Page</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QGroupBox" name="groupBox">
+       <property name="font">
+        <font>
+         <family>Sans Serif</family>
+        </font>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <italic>true</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="title">
+           <string>Caracteristicas</string>
+          </property>
+          <widget class="QWidget" name="layoutWidget_18">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>561</width>
+             <height>101</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_10">
+              <item>
+               <widget class="QLabel" name="label_26">
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Codigo</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="codigo">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_27">
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Nome</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="nome">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_11">
+              <item>
+               <widget class="QLabel" name="label_29">
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Descrição</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="descricao">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_28">
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Endereço</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="endereco">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_12">
+              <item>
+               <widget class="QLabel" name="label_30">
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Telefone</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="telefone">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_31">
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Site</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="site">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_9">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <italic>true</italic>
+            <bold>true</bold>
+            <underline>false</underline>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::TabFocus</enum>
+          </property>
+          <property name="title">
+           <string>Prioridade</string>
+          </property>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>210</x>
+             <y>20</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Classificação:</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="layoutWidget_2">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>50</y>
+             <width>551</width>
+             <height>26</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <property name="spacing">
+             <number>26</number>
+            </property>
+            <item>
+             <widget class="QRadioButton" name="otimo">
+              <property name="text">
+               <string>Ótimo</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="bom">
+              <property name="text">
+               <string>Bom</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="regular">
+              <property name="text">
+               <string>Regular</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="ruim">
+              <property name="text">
+               <string>Ruím</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="Cadastro">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>591</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Observações</string>
+     </property>
+     <widget class="QPlainTextEdit" name="observacao">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>551</width>
+        <height>231</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>430</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img/img/icons8-ok-filled.svg);
+background-color:   rgb(200,200,200);</string>
+    </property>
+    <property name="text">
+     <string>Cadastrar</string>
+    </property>
+    <property name="icon">
+     <iconset resource="recursos.qrc">
+      <normaloff>:/img/img/icons8-ok-filled.svg</normaloff>:/img/img/icons8-ok-filled.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="styleSheet">
+     <string notr="true">background-color:   rgb(200,200,200);</string>
+    </property>
+    <property name="text">
+     <string>Cancelar</string>
+    </property>
+    <property name="icon">
+     <iconset resource="recursos.qrc">
+      <normaloff>:/img/img/icons8-cancelar.svg</normaloff>:/img/img/icons8-cancelar.svg</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>658</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  rgba(255, 207, 183, 200);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>0</y>
+     <width>141</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/img/img/hotel-supplier.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_6</zorder>
+  <zorder>label_3</zorder>
+  <zorder>tabWidget</zorder>
+  <zorder>splitter</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>observacao</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>pushButton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/icons8-administrator-male.svg</file>
+        <file>img/icons8-product-26.png</file>
+        <file>img/icons8-search-filled.svg</file>
+        <file>img/hotel-supplier.svg</file>
+        <file>img/icons8-view-80.png</file>
+        <file>img/icons8-plus.svg</file>
+        <file>img/icons8-cancelar.svg</file>
+        <file>img/icons8-caixa.svg</file>
+        <file>img/locked-padlock-gross-symbol_icon-icons.com_74141.svg</file>
+        <file>img/1455555019_users-9_icon-icons.com_53249.svg</file>
+        <file>img/logo.png</file>
+        <file>img/icons8-ok-filled.svg</file>
+        <file>img/statistics-report-for-business_icon-icons.com_70370.svg</file>
+        <file>img/print-printer-tool-with-printed-paper-outlined-symbol_icon-icons.com_57772.svg</file>
+        <file>img/configure_database_16704.ico</file>
+        <file>img/settings.svg</file>
+    </qresource>
+</RCC>

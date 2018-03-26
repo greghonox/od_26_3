@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>655</width>
+    <height>473</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>655</width>
+    <height>473</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>655</width>
+    <height>473</height>
+   </size>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::TabFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Cadastrar Produto</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="recursos.qrc">
+    <normaloff>:/img/img/configure_database_16704.ico</normaloff>:/img/img/configure_database_16704.ico</iconset>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>FreeMono</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Cadastrar Produto</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>10</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/img/img/icons8-caixa.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>430</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="cadastrar">
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img/img/icons8-ok-filled.svg);
+background-color:   rgb(200,200,200);</string>
+    </property>
+    <property name="text">
+     <string>Cadastrar</string>
+    </property>
+    <property name="icon">
+     <iconset resource="recursos.qrc">
+      <normaloff>:/img/img/icons8-ok-filled.svg</normaloff>:/img/img/icons8-ok-filled.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancelar">
+    <property name="styleSheet">
+     <string notr="true">background-color:   rgb(200,200,200);</string>
+    </property>
+    <property name="text">
+     <string>Cancelar</string>
+    </property>
+    <property name="icon">
+     <iconset resource="recursos.qrc">
+      <normaloff>:/img/img/icons8-cancelar.svg</normaloff>:/img/img/icons8-cancelar.svg</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>658</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  rgba(255, 207, 183, 200);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>631</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>591</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QWidget" name="layoutWidget_17">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>561</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <property name="leftMargin">
+        <number>2</number>
+       </property>
+       <property name="topMargin">
+        <number>4</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>9</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Caracteristicas</string>
+         </property>
+         <widget class="QWidget" name="layoutWidget_18">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>211</width>
+            <height>91</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <widget class="QLabel" name="label_26">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Codigo</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="codigo_4">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+             <item>
+              <widget class="QLabel" name="label_27">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Descrição</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="descricao_4">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_12">
+             <item>
+              <widget class="QLabel" name="label_28">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Garantia</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="garantia_4">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="minimum">
+                <number>1</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_29">
+               <property name="font">
+                <font>
+                 <family>Lato</family>
+                 <pointsize>10</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                 <kerning>false</kerning>
+                </font>
+               </property>
+               <property name="text">
+                <string>Meses</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="layoutWidget_19">
+          <property name="geometry">
+           <rect>
+            <x>300</x>
+            <y>60</y>
+            <width>228</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_13">
+             <item>
+              <widget class="QLabel" name="label_30">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Forncedor</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="fornecedor_4">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:  rgb(200,200,200);</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="adicionar_4">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="recursos.qrc">
+                 <normaloff>:/img/img/icons8-plus.svg</normaloff>:/img/img/icons8-plus.svg</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_14">
+             <item>
+              <widget class="QLabel" name="label_31">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Data Entrada</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDateEdit" name="data_entrada_4">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QLabel" name="label_32">
+          <property name="geometry">
+           <rect>
+            <x>300</x>
+            <y>30</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Quantidade</string>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="quantidade">
+          <property name="geometry">
+           <rect>
+            <x>380</x>
+            <y>30</y>
+            <width>65</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_9">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::TabFocus</enum>
+         </property>
+         <property name="title">
+          <string>Tipo</string>
+         </property>
+         <widget class="QWidget" name="layoutWidget_20">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>49</y>
+            <width>511</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_9">
+           <item row="1" column="2" colspan="2">
+            <widget class="QCheckBox" name="infraestrutura_4">
+             <property name="font">
+              <font>
+               <family>Lato</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+               <kerning>false</kerning>
+              </font>
+             </property>
+             <property name="text">
+              <string>Infra Estrutura</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QCheckBox" name="outros_4">
+             <property name="font">
+              <font>
+               <family>Lato</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+               <kerning>false</kerning>
+              </font>
+             </property>
+             <property name="text">
+              <string>Outros</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QCheckBox" name="vigilancia_4">
+             <property name="font">
+              <font>
+               <family>Lato</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+               <kerning>false</kerning>
+              </font>
+             </property>
+             <property name="text">
+              <string>Vigilancia</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QCheckBox" name="informatica_4">
+             <property name="font">
+              <font>
+               <family>Lato</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+               <kerning>false</kerning>
+              </font>
+             </property>
+             <property name="text">
+              <string>Informática</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="escritorio_4">
+             <property name="font">
+              <font>
+               <family>Lato</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+               <kerning>false</kerning>
+              </font>
+             </property>
+             <property name="text">
+              <string>Escritório</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+    <widget class="QListView" name="listView">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>601</width>
+       <height>321</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <zorder>tabWidget</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label</zorder>
+  <zorder>splitter</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>descricao_4</tabstop>
+  <tabstop>garantia_4</tabstop>
+  <tabstop>quantidade</tabstop>
+  <tabstop>fornecedor_4</tabstop>
+  <tabstop>data_entrada_4</tabstop>
+  <tabstop>escritorio_4</tabstop>
+  <tabstop>vigilancia_4</tabstop>
+  <tabstop>informatica_4</tabstop>
+  <tabstop>infraestrutura_4</tabstop>
+  <tabstop>outros_4</tabstop>
+  <tabstop>cadastrar</tabstop>
+  <tabstop>groupBox_9</tabstop>
+  <tabstop>codigo_4</tabstop>
+  <tabstop>adicionar_4</tabstop>
+  <tabstop>cancelar</tabstop>
+  <tabstop>tabWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
